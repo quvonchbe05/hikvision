@@ -2,7 +2,6 @@ import time, json, requests, datetime
 from functions.send_request import send_request
 from functions.date import datetime_to_iso8601, start_of_day, end_of_day
 
-
 def data_filtering(data):
     json_data = json.loads(data.content)
     if "AcsEvent" in json_data:
@@ -21,7 +20,7 @@ def data_filtering(data):
                     
         return "success!"
     else:
-        return data
+        return data.content
     
 def filter_duplicate_employeeNoString(data):
     unique_data = []
@@ -47,7 +46,7 @@ def get_data_between_current_time_and_15_minutes(data):
 
 
 def main():
-    url = "http://212.115.112.48:8080/ISAPI/AccessControl/AcsEvent?format=json"
+    url = "http://192.168.0.102/ISAPI/AccessControl/AcsEvent?format=json"
     username = "admin"
     password = "Parol0212"
 
@@ -76,8 +75,10 @@ def main():
             json.dump(between, f, indent=4)
         print(result)
         
+        datetime_to_iso8601(start_of_day)
+        
         # Go
-        # request_to_go = requests.post('http://192.168.1.160:9099/v1/ac', json=between)
+        # request_to_go = requests.post('http://192.168.0.101:9099/v1/ac', json=between)
         # print(request_to_go)
         
         time.sleep(10)
