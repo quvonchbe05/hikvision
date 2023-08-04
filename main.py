@@ -73,14 +73,13 @@ def main():
         
         with open('data/filtered_data.json', 'w') as f:
             json.dump(between, f, indent=4)
+            
         print(result)
         
-        datetime_to_iso8601(start_of_day)
-        
-        # Go
-        # request_to_go = requests.post('http://192.168.0.101:9099/v1/ac', json=between)
-        # print(request_to_go)
-        
+        between_data = json.load(open('data/filtered_data.json', 'r'))
+        print(between_data)
+        request_to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=between_data)
+        print(request_to_go)
         time.sleep(10)
 
 if __name__ == "__main__":

@@ -2,6 +2,230 @@
     {
         "major": 5,
         "minor": 75,
+        "time": "2023-08-04T17:36:13+05:00",
+        "cardType": 1,
+        "name": "e407454f-8173-44f1-b70c-940a576e70ba",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "8",
+        "type": 0,
+        "serialNo": 2625,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_173613_30075_0.jpeg@WEB000000044386"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:28:24+05:00",
+        "cardType": 1,
+        "name": "79156147-c700-488e-9a31-34cea5a85b56",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "9",
+        "type": 0,
+        "serialNo": 2622,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_172824_30075_0.jpeg@WEB000000044387"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:28:23+05:00",
+        "cardType": 1,
+        "name": "79156147-c700-488e-9a31-34cea5a85b56",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "9",
+        "type": 0,
+        "serialNo": 2620,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_172823_30075_0.jpeg@WEB000000044388"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:10:11+05:00",
+        "cardType": 1,
+        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "00000003",
+        "type": 0,
+        "serialNo": 2618,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_171011_30075_0.jpeg@WEB000000044389"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:10:09+05:00",
+        "cardType": 1,
+        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "00000003",
+        "type": 0,
+        "serialNo": 2617,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_171009_30075_0.jpeg@WEB000000044390"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:10:08+05:00",
+        "cardType": 1,
+        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "00000003",
+        "type": 0,
+        "serialNo": 2616,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_171008_30075_0.jpeg@WEB000000044391"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:10:07+05:00",
+        "cardType": 1,
+        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "00000003",
+        "type": 0,
+        "serialNo": 2614,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_171007_30075_0.jpeg@WEB000000044392"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:09:22+05:00",
+        "cardType": 1,
+        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "5",
+        "type": 0,
+        "serialNo": 2612,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_170922_30075_0.jpeg@WEB000000044393"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:09:20+05:00",
+        "cardType": 1,
+        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "5",
+        "type": 0,
+        "serialNo": 2610,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_170920_30075_0.jpeg@WEB000000044394"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:09:13+05:00",
+        "cardType": 1,
+        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "5",
+        "type": 0,
+        "serialNo": 2608,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_170913_30075_0.jpeg@WEB000000044395"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:09:11+05:00",
+        "cardType": 1,
+        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "5",
+        "type": 0,
+        "serialNo": 2606,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_170911_30075_0.jpeg@WEB000000044396"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:09:04+05:00",
+        "cardType": 1,
+        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "5",
+        "type": 0,
+        "serialNo": 2604,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_170904_30075_0.jpeg@WEB000000044397"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T17:09:00+05:00",
+        "cardType": 1,
+        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "5",
+        "type": 0,
+        "serialNo": 2602,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_170900_30075_0.jpeg@WEB000000044398"
+    },
+    {
+        "major": 5,
+        "minor": 75,
+        "time": "2023-08-04T16:23:30+05:00",
+        "cardType": 1,
+        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
+        "cardReaderNo": 1,
+        "doorNo": 1,
+        "employeeNoString": "5",
+        "type": 0,
+        "serialNo": 2599,
+        "userType": "normal",
+        "currentVerifyMode": "face",
+        "mask": "no",
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162330_30075_0.jpeg@WEB000000044399"
+    },
+    {
+        "major": 5,
+        "minor": 75,
         "time": "2023-08-04T16:23:29+05:00",
         "cardType": 1,
         "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
@@ -13,7 +237,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162329_30075_0.jpeg@WEB000000034469"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162329_30075_0.jpeg@WEB000000044400"
     },
     {
         "major": 5,
@@ -29,7 +253,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162327_30075_0.jpeg@WEB000000034470"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162327_30075_0.jpeg@WEB000000044401"
     },
     {
         "major": 5,
@@ -45,7 +269,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162326_30075_0.jpeg@WEB000000034471"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162326_30075_0.jpeg@WEB000000044402"
     },
     {
         "major": 5,
@@ -61,7 +285,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162324_30075_0.jpeg@WEB000000034472"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162324_30075_0.jpeg@WEB000000044403"
     },
     {
         "major": 5,
@@ -77,7 +301,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162323_30075_0.jpeg@WEB000000034473"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162323_30075_0.jpeg@WEB000000044404"
     },
     {
         "major": 5,
@@ -93,7 +317,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162322_30075_0.jpeg@WEB000000034474"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162322_30075_0.jpeg@WEB000000044405"
     },
     {
         "major": 5,
@@ -109,7 +333,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162321_30075_0.jpeg@WEB000000034475"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162321_30075_0.jpeg@WEB000000044406"
     },
     {
         "major": 5,
@@ -125,7 +349,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162320_30075_0.jpeg@WEB000000034476"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162320_30075_0.jpeg@WEB000000044407"
     },
     {
         "major": 5,
@@ -141,7 +365,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162318_30075_0.jpeg@WEB000000034477"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_162318_30075_0.jpeg@WEB000000044408"
     },
     {
         "major": 5,
@@ -157,7 +381,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161145_30075_0.jpeg@WEB000000034478"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161145_30075_0.jpeg@WEB000000044409"
     },
     {
         "major": 5,
@@ -173,7 +397,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161144_30075_0.jpeg@WEB000000034479"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161144_30075_0.jpeg@WEB000000044410"
     },
     {
         "major": 5,
@@ -189,7 +413,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161116_30075_0.jpeg@WEB000000034480"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161116_30075_0.jpeg@WEB000000044411"
     },
     {
         "major": 5,
@@ -205,7 +429,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161115_30075_0.jpeg@WEB000000034481"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161115_30075_0.jpeg@WEB000000044412"
     },
     {
         "major": 5,
@@ -221,7 +445,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161113_30075_0.jpeg@WEB000000034482"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161113_30075_0.jpeg@WEB000000044413"
     },
     {
         "major": 5,
@@ -237,7 +461,7 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161025_30075_0.jpeg@WEB000000034483"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161025_30075_0.jpeg@WEB000000044414"
     },
     {
         "major": 5,
@@ -253,230 +477,6 @@
         "userType": "normal",
         "currentVerifyMode": "face",
         "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161024_30075_0.jpeg@WEB000000034484"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T16:10:23+05:00",
-        "cardType": 1,
-        "name": "f76503ce-f228-4714-b089-bfd4c9f8245c",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "000004",
-        "type": 0,
-        "serialNo": 2572,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161023_30075_0.jpeg@WEB000000034485"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T16:07:45+05:00",
-        "cardType": 1,
-        "name": "f76503ce-f228-4714-b089-bfd4c9f8245c",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "000004",
-        "type": 0,
-        "serialNo": 2570,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_160745_30075_0.jpeg@WEB000000034486"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T16:07:44+05:00",
-        "cardType": 1,
-        "name": "f76503ce-f228-4714-b089-bfd4c9f8245c",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "000004",
-        "type": 0,
-        "serialNo": 2568,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "yes",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_160744_30075_0.jpeg@WEB000000034487"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T16:06:20+05:00",
-        "cardType": 1,
-        "name": "f76503ce-f228-4714-b089-bfd4c9f8245c",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "000004",
-        "type": 0,
-        "serialNo": 2566,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_160620_30075_0.jpeg@WEB000000034488"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T16:06:19+05:00",
-        "cardType": 1,
-        "name": "f76503ce-f228-4714-b089-bfd4c9f8245c",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "000004",
-        "type": 0,
-        "serialNo": 2564,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_160619_30075_0.jpeg@WEB000000034489"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:49:01+05:00",
-        "cardType": 1,
-        "name": "f76503ce-f228-4714-b089-bfd4c9f8245c",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "000004",
-        "type": 0,
-        "serialNo": 2562,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_154901_30075_0.jpeg@WEB000000034490"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:49:00+05:00",
-        "cardType": 1,
-        "name": "f76503ce-f228-4714-b089-bfd4c9f8245c",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "000004",
-        "type": 0,
-        "serialNo": 2560,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_154900_30075_0.jpeg@WEB000000034491"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:35:04+05:00",
-        "cardType": 1,
-        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "5",
-        "type": 0,
-        "serialNo": 2558,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_153504_30075_0.jpeg@WEB000000034492"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:35:03+05:00",
-        "cardType": 1,
-        "name": "da83777f-26b0-44ce-aaf0-9ead55a91fbd",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "5",
-        "type": 0,
-        "serialNo": 2556,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_153503_30075_0.jpeg@WEB000000034493"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:28:08+05:00",
-        "cardType": 1,
-        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "00000003",
-        "type": 0,
-        "serialNo": 2554,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_152808_30075_0.jpeg@WEB000000034494"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:28:07+05:00",
-        "cardType": 1,
-        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "00000003",
-        "type": 0,
-        "serialNo": 2553,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_152807_30075_0.jpeg@WEB000000034495"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:28:06+05:00",
-        "cardType": 1,
-        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "00000003",
-        "type": 0,
-        "serialNo": 2552,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_152806_30075_0.jpeg@WEB000000034496"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:28:05+05:00",
-        "cardType": 1,
-        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "00000003",
-        "type": 0,
-        "serialNo": 2551,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_152805_30075_0.jpeg@WEB000000034497"
-    },
-    {
-        "major": 5,
-        "minor": 75,
-        "time": "2023-08-04T15:28:04+05:00",
-        "cardType": 1,
-        "name": "0e4c1a5e-390c-4a92-8fbb-c31a789d60a6",
-        "cardReaderNo": 1,
-        "doorNo": 1,
-        "employeeNoString": "00000003",
-        "type": 0,
-        "serialNo": 2549,
-        "userType": "normal",
-        "currentVerifyMode": "face",
-        "mask": "no",
-        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_152804_30075_0.jpeg@WEB000000034498"
+        "pictureURL": "http://192.168.0.102/LOCALS/pic/acsLinkCap/202308_00/04_161024_30075_0.jpeg@WEB000000044415"
     }
 ]
