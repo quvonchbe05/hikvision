@@ -1,6 +1,6 @@
 import time, json, requests, datetime
 from functions.send_request import send_request
-from functions.date import datetime_to_iso8601, start_of_day, end_of_day
+from functions.date import datetime_to_iso8601, start_of_day, end_of_day, tz
 
 def data_filtering(data):
     json_data = json.loads(data.content)
@@ -34,12 +34,12 @@ def filter_duplicate_employeeNoString(data):
 
 
 def get_data_between_current_time_and_15_minutes(data):
-    current_time = datetime.datetime.now()
+    current_time = datetime.datetime.now(tz)
     fifteen_minutes_ago = current_time - datetime.timedelta(seconds=10)
     filtered_data = []
     for entry in data:
         time_str = entry['time']
-        time_obj = datetime.datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S+05:00')
+        time_obj = datetime.datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S+05:00').astimezone(tz)
         if time_obj >= fifteen_minutes_ago:
             filtered_data.append(entry)
     return filtered_data
