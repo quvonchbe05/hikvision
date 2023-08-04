@@ -47,7 +47,7 @@ def get_data_between_current_time_and_15_minutes(data):
 
 
 def main():
-    url = "http://192.168.0.102/ISAPI/AccessControl/AcsEvent?format=json"
+    url = "http://212.115.112.48:8080/ISAPI/AccessControl/AcsEvent?format=json"
     username = "admin"
     password = "Parol0212"
 
@@ -76,6 +76,7 @@ def main():
             json.dump(between, f, indent=4)
         print(result)
         
+        # Go
         # request_to_go = requests.post('http://192.168.1.160:9099/v1/ac', json=between)
         # print(request_to_go)
         
