@@ -16,7 +16,7 @@ def data_filtering(data):
                 json.dump(filtered_data, file, indent=4)
         else:        
             with open('data/data.json', 'w') as file:
-                json.dump('[]', file, indent=4)
+                json.dump([], file, indent=4)
                     
         return "success!"
     else:
@@ -46,7 +46,7 @@ def get_data_between_current_time_and_15_minutes(data):
 
 
 def main():
-    url = "http://192.168.0.102/ISAPI/AccessControl/AcsEvent?format=json"
+    url = "http://212.115.112.48:8080/ISAPI/AccessControl/AcsEvent?format=json"
     username = "admin"
     password = "Parol0212"
 
@@ -78,8 +78,8 @@ def main():
         
         between_data = json.load(open('data/filtered_data.json', 'r'))
         print(between_data)
-        request_to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=between_data)
-        print(request_to_go)
+        # request_to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=between_data)
+        # print(request_to_go)
         time.sleep(10)
 
 if __name__ == "__main__":
