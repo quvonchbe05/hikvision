@@ -11,7 +11,6 @@ def data_filtering(data):
             for info in info_list:
                 if len(info.keys()) == 14:
                     filtered_data.append(info)
-                
             with open('data/data.json', 'w') as file:
                 json.dump(filtered_data, file, indent=4)
         else:        
@@ -34,12 +33,12 @@ def filter_duplicate_employeeNoString(data):
 
 
 def get_data_between_current_time_and_15_minutes(data):
-    current_time = datetime.datetime.now(tz)
+    current_time = datetime.datetime.now()
     fifteen_minutes_ago = current_time - datetime.timedelta(seconds=10)
     filtered_data = []
     for entry in data:
         time_str = entry['time']
-        time_obj = datetime.datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S+05:00').astimezone(tz)
+        time_obj = datetime.datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S+05:00')
         if time_obj >= fifteen_minutes_ago:
             filtered_data.append(entry)
     return filtered_data
@@ -58,14 +57,15 @@ def main():
                 "maxResults":100,
                 "major":5,
                 "minor":75,
-                "startTime": f"{datetime_to_iso8601(start_of_day)}",
-                "endTime": f"{datetime_to_iso8601(end_of_day)}",
+                "startTime": f"{datetime_to_iso8601(start_of_day)}-05:00",
+                "endTime": f"{datetime_to_iso8601(end_of_day)}-05:00",
                 "timeReverseOrder": True
             }
         }
         
         response = send_request(url, username, password, json_data)
         result = data_filtering(response)
+        print(result)
         
         data = json.load(open('data/data.json', 'r'))
         filtered_data = filter_duplicate_employeeNoString(data)
@@ -74,12 +74,11 @@ def main():
         with open('data/filtered_data.json', 'w') as f:
             json.dump(between, f, indent=4)
             
-        print(result)
         
         between_data = json.load(open('data/filtered_data.json', 'r'))
         print(between_data)
-        # request_to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=between_data)
-        # print(request_to_go)
+        request_to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=between_data)
+        print(request_to_go)
         time.sleep(10)
 
 if __name__ == "__main__":
