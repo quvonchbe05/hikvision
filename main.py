@@ -34,7 +34,7 @@ def filter_duplicate_employeeNoString(data):
 
 def get_data_between_current_time_and_15_minutes(data):
     current_time = datetime.datetime.now()
-    fifteen_minutes_ago = current_time - datetime.timedelta(seconds=10)
+    fifteen_minutes_ago = current_time - datetime.timedelta(seconds=30)
     filtered_data = []
     for entry in data:
         time_str = entry['time']
@@ -79,7 +79,7 @@ def main():
         print(between_data)
         request_to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=between_data)
         print(request_to_go)
-        time.sleep(10)
+        time.sleep(30)
 
 if __name__ == "__main__":
     main()
