@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 
-WORKDIR /
+WORKDIR /app
 
 COPY . .
 
@@ -8,4 +8,5 @@ RUN python -m pip install --upgrade pip
 
 RUN pip install -r requirements.txt
 
+ENV TZ="Asia/Tashkent"
 CMD ["python", "main.py"]
