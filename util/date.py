@@ -6,5 +6,5 @@ def datetime_to_iso8601(datetime_object):
 
 
 today = date.today()
-start_time = f"{datetime_to_iso8601(datetime.combine(today, time.min))}-05:00"
-end_time = f"{datetime_to_iso8601(datetime.combine(today, time.max))}-05:00"
+start_time = f"{datetime_to_iso8601(datetime.combine(today, time.min))}+05:00"
+end_time = f"{datetime_to_iso8601(datetime.combine(today, time.max))}+05:00"

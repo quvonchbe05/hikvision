@@ -1,4 +1,5 @@
 import time
+import requests
 from util.send_request import send_request
 from util.date import start_time, end_time
 from uuid import uuid4
@@ -10,11 +11,11 @@ password = "Parol0212"
 
 json_data = {
     "AcsEventCond": {
-        "searchID": None,
+        "searchID": "a1e5c03a-9da2-44df-812f-9bc0e57036f5",
         "searchResultPosition": 1,
-        "maxResults": 1000,
-        "major": 5,
-        "minor": 75,
+        "maxResults": 100,
+        "major": 0,
+        "minor": 0,
         "startTime": start_time,
         "endTime": end_time,
         "timeReverseOrder": True,
@@ -40,18 +41,22 @@ def main():
         result = response_dates(response)
         json_data['AcsEventCond']['searchID'] = str(uuid4())
         print(len(result))
+        # print(response.content)
+        # print(json_data)
         if not result:
             pass
         elif old_result != len(result):
             if old_result != 0:
-                difference = len(result) - old_result
                 print(
                     f"""
                     Oldingi natija: {old_result}
                     Xozirgi natija: {len(result)}
                     """
                 )
-                print(result[-difference:])
+                result_user = result[old_result:len(result)]
+                print(result_user)
+                to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=result_user)
+                print(to_go)
                 print("Amal bajarildi!")
 
             old_result = len(result)
