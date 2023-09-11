@@ -14,8 +14,8 @@ json_data = {
         "searchID": "a1e5c03a-9da2-44df-812f-9bc0e57036f5",
         "searchResultPosition": 1,
         "maxResults": 100,
-        "major": 0,
-        "minor": 0,
+        "major": 5,
+        "minor": 75,
         "startTime": start_time,
         "endTime": end_time,
         "timeReverseOrder": True,
@@ -35,31 +35,34 @@ def response_dates(response):
 
 
 def main():
-    old_result = 0
+    old_result = None
     while True:
         response = send_request(url, username, password, json_data)
         result = response_dates(response)
-        json_data['AcsEventCond']['searchID'] = str(uuid4())
-        print(len(result))
+        # json_data['AcsEventCond']['searchID'] = str(uuid4())
+        # print(f"""
+        #       new: {result[0]["time"]}
+        #       old: {old_result}
+        #       """)
         # print(response.content)
         # print(json_data)
         if not result:
             pass
-        elif old_result != len(result):
-            if old_result != 0:
-                print(
-                    f"""
-                    Oldingi natija: {old_result}
-                    Xozirgi natija: {len(result)}
-                    """
-                )
-                result_user = result[old_result:len(result)]
+        elif old_result != result[0]["time"]:
+            if old_result != None:
+                # print(
+                #     f"""
+                #     Oldingi natija: {old_result}
+                #     Xozirgi natija: {result[0]["time"]}
+                #     """
+                # )
+                result_user = result[0]
                 print(result_user)
                 to_go = requests.post('https://tizim.astrolab.uz/v1/ac', json=result_user)
-                print(to_go)
+                print(f"Status: {to_go.status_code}")
                 print("Amal bajarildi!")
 
-            old_result = len(result)
+            old_result = result[0]["time"]
 
         time.sleep(1)
 
